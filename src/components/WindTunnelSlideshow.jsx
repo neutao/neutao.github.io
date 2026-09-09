@@ -3,15 +3,15 @@ import React, { useState, useEffect } from "react";
 const SLIDESHOW_IMAGES = [
   {
     src: "/images/research-highlight-windtunneltesting.jpg",
-    alt: "Downhill skier in aerodynamic tuck position during wind tunnel drag testing with smoke airflow visualization",
+    alt: "Wind tunnel testing at Ontario Tech University",
   },
   {
-    src: "/images/research-highlight-windtunneltesting.jpg",
-    alt: "Cyclist in aerodynamic racing position on stationary bike during wind tunnel testing with smoke airflow",
+    src: "/images/wind-tunnel-cyclist.jpg",
+    alt: "Cyclist during wind tunnel testing",
   },
   {
-    src: "/images/research-highlight-windtunneltesting.jpg",
-    alt: "Wingsuit flyer suspended in the ACE Climatic Wind Tunnel at Ontario Tech University during aerodynamic testing",
+    src: "/images/wind-tunnel-wingsuit.jpg",
+    alt: "Wingsuit testing in the ACE Climatic Wind Tunnel",
   },
 ];
 

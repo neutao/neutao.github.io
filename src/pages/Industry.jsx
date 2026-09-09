@@ -49,7 +49,7 @@ export default function Industry() {
       <section className="bg-[#0F172A] py-16 lg:py-24 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <img
-            src="/images/industry-li-ning.png"
+            src="/images/research-highlight-footwear.jpg"
             alt="Advanced biomechanics research laboratory"
             className="w-full h-full object-cover"
           />

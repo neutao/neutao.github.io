@@ -22,20 +22,20 @@ const STUDENTS = [
     name: "Madeline Barker",
     degree: "PhD Student",
     note: "Co-supervised with Dr. Lindsey Westover",
-    photo: "/images/team-barker.jpg",
+    photo: "/images/student-madeline-barker.jpg",
     bio: "Madeline grew up in Edmonton and earned her B.Sc. in Civil Engineering and M.Sc. in Mechanical Engineering from the University of Alberta. Her master's research investigated the mechanobiological effects of simulated microgravity on engineered human cartilage and the role of mechano-hypoxia conditioning. She is now a Ph.D. student co-supervised by Dr. Tao Liu and Dr. Lindsey Westover, where she is developing and evaluating a universal talus bone implant with an artificial cartilage coating using experimental and computational approaches. Outside of research, Madeline enjoys sports and fitness, camping, silversmithing, painting, and playing guitar.",
   },
   {
     name: "Tasnimul Hasan",
     degree: "MSc Student",
-    photo: "/images/team-hannah.jpg",
+    photo: "/images/student-tasnimul-hasan.jpg",
     bio: "Tasnimul earned his B.Sc. in Biomedical Engineering from Khulna University of Engineering & Technology (KUET), Bangladesh. His research lies at the intersection of shape analysis and implant design, leveraging statistical and machine learning methods. His current work focuses on developing statistical shape models to characterize the morphology of the human foot, with the goal of enabling more customized footwear designs and improving prosthetic fit.",
   },
   {
     name: "Khadija Shoaib",
     degree: "Undergraduate Student",
     note: "Mitacs Globalink Research Intern — Visiting Researcher",
-    photo: "/images/team-kexin.jpg",
+    photo: "/images/student-khadija-shoaib.jpg",
     bio: "Khadija completed her Bachelor's degree in Product and Industrial Design at the University of Engineering and Technology (UET), Lahore, Pakistan. Her academic background combines product design, computational design, and user-centered innovation, with research interests in biomechanics, advanced technologies, and additive manufacturing. Her undergraduate thesis focused on auxetic-based sports protective gear, integrating computational modeling with human-centered design to enhance comfort, flexibility, and impact protection. As a Visiting Researcher at Ontario Tech University through the Mitacs Globalink Research Internship, she contributes to research on advanced footwear technologies, with a focus on computational design and performance-driven product development.",
   },
 ];

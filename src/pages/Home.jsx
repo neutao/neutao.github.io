@@ -6,32 +6,32 @@ import ImageGallery from "@/components/ImageGallery";
 import NewsSection from "@/components/NewsSection";
 import { NEWS_ITEMS } from "@/data/news";
 
-const HERO_IMG = "/images/home-hero.png";
-const FEA_IMG = "/images/home-fea.png";
+const HERO_IMG = "/images/research-highlight-smart-insole.jpg";
+const FEA_IMG = "/images/research-implant-design.jpg";
 
 const GALLERY_IMAGES = [
   {
-    src: "/images/home-capstone.jpg",
+    src: "/images/research-highlight-smart-insole.jpg",
     alt: "Exploded view, internal view, and key electronic components of a sensor-equipped smart insole with FSR, IMU, temperature sensors, and ESP32 microcontroller, plus real-world application in an athletic shoe",
   },
   {
-    src: "/images/home-footwear.jpg",
+    src: "/images/research-highlight-footwear.jpg",
     alt: "Midfoot and forefoot hollow shoe designs with running power and ankle work analysis graphs during the gait cycle",
   },
   {
-    src: "/images/home-implant-design.jpg",
+    src: "/images/research-implant-design.jpg",
     alt: "3D skeletal lower limb model with gait cycle phases and cartilage pressure heat maps for tibial, talar, and fibular cartilage",
   },
   {
-    src: "/images/home-implant-fea.jpg",
+    src: "/images/research-highlight-implant-design.jpg",
     alt: "Design workflow for universal talus implants for total talus replacement, comparing CT scans, biological FE model, and PCU-coated versus non-coated implant evaluation",
   },
   {
-    src: "/images/home-obesity.jpg",
+    src: "/images/research-spine-biomechanics.jpg",
     alt: "Workflow diagram for predicting body mass distribution along T1-L5 using anthropometric measurements and cross-sectional area scaling",
   },
   {
-    src: "/images/research-spinal.jpg",
+    src: "/images/research-spine-biomechanics.jpg",
     alt: "Process flow transitioning from musculoskeletal model to finite element model of the lumbosacral spine with applied load vectors",
   },
 ];
@@ -177,7 +177,7 @@ export default function Home() {
               </div>
               <div className="hidden lg:block">
                 <img
-                  src="/images/wind-tunnel.jpg"
+                  src="/images/research-highlight-windtunneltesting.jpg"
                   alt="Alpine skier in aerodynamic tuck position during climatic wind tunnel testing with smoke visualization"
                   className="w-full h-full object-cover"
                 />

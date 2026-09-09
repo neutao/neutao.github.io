@@ -19,7 +19,7 @@ const RESEARCH_AREAS = [
     ],
     images: [
       {
-        src: "/images/research-spinal.jpg",
+        src: "/images/research-spine-biomechanics.jpg",
         alt: "Process flow transitioning from musculoskeletal model to finite element model of the lumbosacral spine with applied load vectors",
       },
       {
@@ -40,7 +40,7 @@ const RESEARCH_AREAS = [
       "Winter and safety footwear testing",
       "Ground reaction forces and joint loading during locomotion",
     ],
-    image: "/images/research-footwear.jpg",
+    image: "/images/research-highlight-footwear.jpg",
     imageAlt: "Midfoot and forefoot hollow shoe designs with running power and ankle work analysis graphs during the gait cycle",
   },
   {
@@ -55,7 +55,7 @@ const RESEARCH_AREAS = [
       "Real-world movement monitoring",
       "Sensor reliability and accuracy assessment",
     ],
-    image: "/images/research-smart-insole.png",
+    image: "/images/research-highlight-smart-insole.jpg",
     imageAlt: "Exploded view, internal view, and key electronic components of a sensor-equipped smart insole with FSR, IMU, temperature sensors, and ESP32 microcontroller, plus real-world application in an athletic shoe",
   },
   {
@@ -70,7 +70,7 @@ const RESEARCH_AREAS = [
       "Feature extraction from wearable sensor data",
       "AI-driven biomechanical data analysis pipelines",
     ],
-    image: "/images/research-cfd.png",
+    image: "/images/research-machine-learning.png",
     imageAlt: "Neon wireframe runner with connected data networks showing biomechanics machine learning analysis of gait, sensors, and movement classification",
   },
   {

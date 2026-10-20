@@ -3,7 +3,7 @@ import { BookOpen, Clock3, FileText, GraduationCap, Info, Mail, PenLine } from "
 import SectionLabel from "@/components/SectionLabel";
 
 const EMAIL = "tao.liu@ontariotechu.net";
-const SUBJECT = "CAB Lab – Graduate Student Application";
+const SUBJECT = "Application – CAB Lab – MSc/PhD – Your Name";
 
 const REQUIREMENTS = [
   {
@@ -79,6 +79,15 @@ export default function QualificationsAndApply() {
         </div>
 
         <div className="text-center">
+          <div className="mb-5 rounded-lg border border-sky-100 bg-sky-50 px-4 py-4 text-left">
+            <p className="text-sm font-medium text-[#0F172A] mb-2">Required email subject format</p>
+            <p className="text-sm text-[#0369A1] font-medium break-words">{SUBJECT}</p>
+            <p className="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
+              Replace MSc/PhD with the program you are applying for (MSc or PhD), and replace
+              Your Name with your full name. The Apply by Email button opens a draft with
+              this subject template; please edit it before sending.
+            </p>
+          </div>
           <a
             href={`mailto:${EMAIL}?subject=${encodeURIComponent(SUBJECT)}`}
             className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-[#0EA5E9] text-white font-medium rounded-md hover:bg-[#0284C7] transition-colors min-h-[44px] text-sm"
